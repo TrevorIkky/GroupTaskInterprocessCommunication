@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.ds.icde.ui.GUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="FormLayout">
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:d:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <colspec value="fill:56px:noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="3413c" class="javax.swing.JLabel" binding="lFaculty">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value="Faculty"/>
+        </properties>
+      </component>
+      <component id="f4efc" class="javax.swing.JLabel" binding="lName">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value="Name"/>
+        </properties>
+      </component>
+      <component id="d75eb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <text value="#"/>
+        </properties>
+      </component>
+      <component id="f8046" class="javax.swing.JTextField" binding="faculty">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms top="0" left="0" bottom="0" right="10" defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="da3dc" class="javax.swing.JTextField" binding="studentNumber">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms top="0" left="0" bottom="0" right="10" defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="8a84d" class="javax.swing.JTextField" binding="studentName">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms top="0" left="0" bottom="0" right="10" defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="71c8e" class="javax.swing.JLabel" binding="lCourse">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value="Course"/>
+        </properties>
+      </component>
+      <component id="4da12" class="javax.swing.JTextField" binding="course">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms top="0" left="0" bottom="0" right="10" defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="b9a67" class="javax.swing.JLabel" binding="lDegree">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value="Degree"/>
+        </properties>
+      </component>
+      <component id="c1226" class="javax.swing.JTextField" binding="degree">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms top="0" left="0" bottom="0" right="10" defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="4c828" layout-manager="FormLayout">
+        <rowspec value="center:d:grow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="5f074" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <text value="gUI"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="432d3" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="4">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="0" bottom="0" right="10"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e0096" class="javax.swing.JLabel" binding="personalCode">
+            <constraints/>
+            <properties>
+              <enabled value="true"/>
+              <text value="PersonalCode"/>
+            </properties>
+          </component>
+          <component id="24b7f" class="javax.swing.JButton" binding="sendRequest">
+            <constraints/>
+            <properties>
+              <text value="SEND"/>
+              <toolTipText value="Send Details To Server"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="bbe50" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="4">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="0" bottom="0" right="10"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="aad20" class="javax.swing.JLabel" binding="serverMessage">
+            <constraints/>
+            <properties>
+              <text value="StatusText"/>
+            </properties>
+          </component>
+          <component id="31d61" class="javax.swing.JProgressBar" binding="progressBar">
+            <constraints/>
+            <properties>
+              <background color="-855310"/>
+              <indeterminate value="true"/>
+              <orientation value="0"/>
+              <preferredSize width="110" height="3"/>
+              <stringPainted value="false"/>
+              <value value="20"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
