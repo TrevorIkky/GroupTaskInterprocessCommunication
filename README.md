@@ -18,3 +18,5 @@ Run the `GUI.java` class under `src/UI/GUI` A GUI forms open prompting for detai
 7. The server replies with the count of the details received.
 8. The send button text changes to exit.
 9. Click on the `exit` button to end the client program
+
+Further program documentation incuded in the code.
