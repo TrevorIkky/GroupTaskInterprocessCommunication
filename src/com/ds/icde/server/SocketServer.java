@@ -6,6 +6,11 @@ import com.ds.icde.interfaces.BaseInterface;
 import java.io.IOException;
 import java.net.ServerSocket;
 
+/*
+* Socket server continuously spawns a thread waiting for client connections
+* The thread closes when the connection by the client is ended. A new thread is
+* created waiting for a client to connect to it again.
+* */
 
 public class SocketServer implements BaseInterface {
 

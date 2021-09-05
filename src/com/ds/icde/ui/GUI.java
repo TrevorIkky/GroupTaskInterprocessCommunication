@@ -9,6 +9,15 @@ import javax.swing.*;
 import java.io.IOException;
 import java.util.UUID;
 
+/*
+* The GUI
+* The first field is enabled to send the student number to the server
+* If the server processes this field and returns a 200 response code in the
+* response object, then the client keeps track of the successful response counts
+* and enables the next field.
+* This continuously happens till the server gets all inputs. The send button will prompt
+* the user to exit after the server has received all inputs from the client.
+* */
 
 public class GUI {
     private JPanel mainPanel;

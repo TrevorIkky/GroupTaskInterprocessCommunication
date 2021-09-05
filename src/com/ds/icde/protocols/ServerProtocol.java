@@ -6,6 +6,12 @@ import com.ds.icde.server.ResponseObject;
 import java.util.Arrays;
 import java.util.List;
 
+/*
+* The ServerProtocol receives a client object with the count of successful
+* responses that has been processed by the client,
+* The successful responses count allow the protocol to know which field is being processed and
+* pick a valid message to send to the client.
+* */
 public class ServerProtocol {
     public ResponseObject processClientInput(ClientObject input) {
         String message;

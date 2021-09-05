@@ -2,6 +2,12 @@ package com.ds.icde.server;
 
 import java.io.Serializable;
 
+/*
+ * The ResponseObject stores the server response and the code to
+ * serialize and send to the client.
+ * Implements serializable
+ *  */
+
 public class ResponseObject implements Serializable {
     public String message;
     public int code;

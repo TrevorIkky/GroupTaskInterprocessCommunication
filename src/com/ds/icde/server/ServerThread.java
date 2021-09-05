@@ -6,6 +6,15 @@ import com.ds.icde.protocols.ServerProtocol;
 import java.io.*;
 import java.net.Socket;
 
+/*
+* ServerThread implementing a server protocol to process client objects
+* The client object is created from reading an object from the ObjectInputStream
+* The ServerProtocol processes the client object and returns a ResponseObject
+* containing the message and the code of whether the input was accepted by the server
+* The ObjectSocketOutput stream writes the object back to the client.
+* If the client has stored >= 7 successful response counts from the client then it closes
+* the socket connection.
+* */
 public class ServerThread extends Thread {
 
     Socket socket;
